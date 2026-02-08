@@ -2,6 +2,7 @@ import { DashboardContainer } from "./styled";
 
 import ProjectTimeline from "@/components/ProjectTimeline/ProjectTimeline";
 import StatCard from "@/components/StatCard";
+import ProjectStatus from "@/components/ProjectStatus";
 
 import chartbarLineRedIcon from "@/assets/icons/chart-bar-line-red.svg";
 import fileUploadRedIcon from "@/assets/icons/file-upload-red.svg";
@@ -25,6 +26,7 @@ function Dashboard() {
 			<DashboardContainer>
 				<ProjectTimeline />
 				<StatCard items={statsData} />
+				<ProjectStatus />
 			</DashboardContainer>
 		</>
 	);

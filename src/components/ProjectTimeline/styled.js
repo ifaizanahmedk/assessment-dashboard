@@ -3,7 +3,6 @@ import { borderRadius, colors, spacing, typography } from "../../theme";
 
 export const Wrapper = styled.div`
 	padding: ${spacing.sm} ${spacing.md} ${spacing.lg};
-	margin-bottom: ${spacing.md};
 	background-color: ${colors.white};
 	border-radius: 0.625rem;
 	border: 1px solid ${colors.border};

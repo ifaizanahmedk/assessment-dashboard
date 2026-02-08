@@ -4,3 +4,6 @@ export { default as SearchBar } from "./SearchBar";
 export { default as NotificationIcon } from "./NotificationIcon";
 export { default as ProfileDropdown } from "./ProfileDropdown";
 export { default as NavMenu } from "./NavMenu";
+export { default as ProjectStatus } from "./ProjectStatus";
+export { default as ProjectTimeline } from "./ProjectTimeline";
+export { default as StatCard } from "./StatCard";

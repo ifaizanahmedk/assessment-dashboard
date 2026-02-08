@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import {
 	NavMenuContainer,
 	MenuList,
@@ -38,7 +39,13 @@ const NavMenu = () => {
 			<MenuList>
 				{menuItems.map((item) => (
 					<MenuItem key={item.id}>
-						<MenuLink href={item.path} title={item.label}>
+						<MenuLink
+							as={NavLink}
+							to={item.path}
+							title={item.label}
+							className={({ isActive }) =>
+								isActive ? "active" : ""
+							}>
 							<MenuIcon src={item.icon} />
 							<MenuLabel>{item.label}</MenuLabel>
 						</MenuLink>

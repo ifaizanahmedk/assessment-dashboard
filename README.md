@@ -26,6 +26,10 @@ The **Tahwul Dashboard** is a web-based application designed to help organizatio
 - **Top Bar**: Quick access to search, notifications, and user profile
 - **Themed UI**: Professional color scheme with smooth transitions and animations
 
+### DEMO LINK:
+
+https://tahwul-dashboard-faizan.netlify.app/
+
 ---
 
 ## Project Architecture
